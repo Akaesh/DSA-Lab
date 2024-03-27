@@ -1,0 +1,16 @@
+# Scatterplot and Correlations
+# Data
+x-pp random randn(100)
+yl=x*5+9
+y2=-5°x
+y3=no_random.randn(100)
+#Plot
+plt.reParams update('figure figsize' (10,8), 'figure dpi1:100})
+plt scatter(x, yl, label=fyl, Correlation = {np.round(np.corrcoef(x,y1)[0,1], 2)})
+plt scatter(x, y2, label=fy2 Correlation = (np.round(np.corrcoef(x,y2)[0,1], 2)})
+plt scatter(x, y3, label=fy3 Correlation = (np.round(np.corrcoef(x,y3)[0,1], 2)})
+# Plot
+
+plt titlef('Scatterplot and Correlations')
+plt(legend)
+plt(show)
